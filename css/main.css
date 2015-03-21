@@ -1,0 +1,79 @@
+#home, #about, #executives, #pastevents, #upcoming, #contact {    
+    position: relative;
+}
+
+
+body {
+    /*overflow: hidden;*/
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    min-width:250px;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.blink {
+    /*
+    -webkit-animation: flash 1s infinite linear;
+    -moz-animation: flash 1s infinite linear;
+    animation: flash 1s infinite linear;
+    */
+}
+.blink:hover {
+    -webkit-animation: flash 1s infinite linear;
+    -moz-animation: flash 1s infinite linear;
+    animation: flash 1s infinite linear;
+}
+
+
+@-webkit-keyframes flash{
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes loader{
+    0% {
+        -moz-transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.1);
+    }
+    100% {
+        -moz-transform: scale(1);
+    }
+}
+
+@keyframes flash{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
