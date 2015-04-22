@@ -79,7 +79,7 @@ p a:hover {
 }
 #header div:first-child div a#logo {
 	float: left;
-	margin: -60px 20px 0 32px;
+	margin: -60px 20px 0 25px;
 }
 #header div {
 	background: url(../images/bg-yellow.png) repeat-x left bottom;
